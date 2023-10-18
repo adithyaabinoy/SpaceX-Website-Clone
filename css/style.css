@@ -307,7 +307,7 @@ footer ul li a:hover {
     transition: transform 0.6s cubic-bezier(0.19,1,0.22,1);
 }
 
-/* bring menu from right */
+/* Bring menu from right */
 .show-menu {
     transform: translateX(0);
 }
