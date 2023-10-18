@@ -242,6 +242,7 @@ footer ul li a:hover {
     top: 0;
     left: 0;
     background: #fff;
+    transition: all 0.5s;
 }
 
 .hamburger-middle {
@@ -252,6 +253,23 @@ footer ul li a:hover {
     transform: translateY(10px);
 }
 
+/* transition hamburger to X when open */
+.open {
+    transform: rotate(90deg);
+}
+
+.open .hamburger-top {
+    transform: rotate(45deg) translateY(6px) translateX(6px);
+}
+
+.open .hamburger-middle {
+    display: none;
+}
+
+.open .hamburger-bottom {
+    transform: rotate(-45deg) translateY(6px) translateX(-6px);
+
+}
 /* animations */
 @keyframes fadeInUp {
   0% {
